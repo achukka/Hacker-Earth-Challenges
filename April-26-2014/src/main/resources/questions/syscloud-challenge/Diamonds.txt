@@ -1,0 +1,45 @@
+Roy has unlimited supply of diamonds of width: 2 units and height: 4 units.
+He tries to fit these diamonds in a rectangle of height H and width W.
+
+He is using following arrangement method to fit the diamonds.
+
+enter image description here
+
+In the above fashion he tries to fit as many diamonds as possible. Notice the white space left after the fitting. Your task is to find the area of this white space.
+
+Given H and W of any rectangle, find the area of white space left after arranging the diamonds as shown in the image.
+
+Input:
+First line contains T - number of test cases
+Each of the next T lines contains two space separated integers - H and W.
+
+Output:
+For each test case output the result in a new line.
+
+Constraints:
+1 = T = 100
+4 = H = 1000000000 (109)
+2 = W = 1000000000 (109)
+
+Sample Explanation:
+
+Test Case #1:
+This is simple case where only 1 diamond can fit in the rectangle. Four white space triangles are created due to this. Each triangle has area 1. Hence the total white space area is 4.
+
+Test Case #2:
+The arrangement of diamonds is shown in image below. We can fit maximum two diamonds in this rectangle.
+enter image description here
+The area of whitespace is 10 in this image.
+
+Test Case #3:
+This is explained in the problem statement.
+
+Sample Input(Plaintext Link)
+ 3
+4 2
+6 3
+9 8
+Sample Output(Plaintext Link)
+ 4
+10
+28
